@@ -3,16 +3,19 @@
   <head>
     <title>Title of the webpage!</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="./events.js"></script>
+    <!-- <script src="./events.js"></script> -->
   </head>
   <body>
+    <script defer src="./events.js"></script>
+    <!-- async shows all 4 -->
+    <!-- defer shows last 3 -->
     <h1 class="header center">Header</h1>
-    <!-- <script src="./events.js"></script> -->
     <div class="center">
       <button class="js-button button">Toggle show hide</button>
     </div>
     <div class="js-showHide showHide">Add and Remove from the Render Tree</div>
+    <!-- <script src="./events.js"></script> -->
+    <!-- async shows interactive and complete -->
+  <!-- defer shows interactive, domcon, complete -->
   </body>
-  <script src="./index.js"></script>
-  <!-- <script src="./events.js"></script> -->
 </html>
